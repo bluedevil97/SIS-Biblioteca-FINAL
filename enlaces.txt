@@ -10,6 +10,8 @@ https://es.wikipedia.org/wiki/Sistema_de_recomendaci%C3%B3n
 https://platzi.com/blog/que-es-y-como-funciona-filtrado-colaborativo/
 
 Jhordy Vizcarra:
+http://www.iac.es/sieinvens/python-course/source/matplotlib.html
+https://programacionpython80889555.wordpress.com/2019/02/19/representacion-grafica-de-datos-en-python-con-matplotlib-grafico-de-barras/
 
 
 Angelo Quispe:
