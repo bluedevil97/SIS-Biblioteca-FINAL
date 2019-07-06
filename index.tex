@@ -221,15 +221,19 @@ Este objetivo se hace necesario para poder iniciar una valoracion de los libros.
 
 
 \section{Conclusion}
-El método Kimball está orientado a la consulta de la información, por lo que su estructura interna está especialmente diseñada para garantizar una explotación de los datos rápida y sencilla, no requiriendo usuarios especializados para ello. Por el contrario, el método Inmon persigue la integración de todos los datos de la compañía, estando orientado hacia el almacenaje de grandes volúmenes de datos, por lo que su estructura interna normalizada se diseña para evitar la redundancia de datos, simplificar las labores de mantenimiento, etc. cuestiones que complican las consultas de la información, requiriendo que los usuarios finales estén mucho más especializados.
-Así, podríamos decir que el enfoque de Kimball se ajusta más a proyectos pequeños en los que se persiga un sistema fácilmente explotable y entendible por el usuario y de rápido desarrollo, siendo el modelo de Inmon más apropiado para sistemas complejos de mayor importancia.
+Un sistema de recomendaciones es mucho más que un algoritmo o un filtro que selecciona productos con más o menos acierto. Podemos dividir un recomendador en 4 partes: la base de conocimiento (la información, los datos), el procesamiento de la base de conocimientos (tecnología, algoritmos, filtros), la analítica y control de negocio (medir todo, estrategia de negocio) y finalmente el interface del usuario.
 
-%%
+Para terminar, y ya que estamos en un mundo de datos, pongamos un peso a cada una de ellas:
+\begin{itemize}
+	\item Base de conocimiento – 25%\\
+	\item Procesamiento de la base de conocimientos – 5%\\
+	\item Analítica y control de negocio – 20%\\
+	\item Interface del usuario – 50%\\
+\end{itemize}
+
+Evalúa tu entorno, tu producto, tu negocio, la calidad y cantidad de tus datos, el comportamiento de tus clientes y construye el recomendador adecuado a tus necesidades. Si deseas conocer más sobre el tema, no dudes en ponerte en contacto con nosotros
+
 	
-	%%
-	%\linenumbers
-	
-	%% main text
 
 	
 	
@@ -238,13 +242,14 @@ Así, podríamos decir que el enfoque de Kimball se ajusta más a proyectos pequ
 		%ESTILO
 	   \bibliography{BIBLIOGRAFIA}		%ARCHIVO .bib
 	   \begin{thebibliography}{0}
-              \bibitem{Ronald} 
- 	    \bibitem{Angelo} 
+              \bibitem{Ronald} http://blog.findemor.es/2018/02/sistemas-de-recomendacion-en-python/
+	    \bibitem{Ronald} https://medium.com/datos-y-ciencia/construye-tu-primer-clasificador-de-deep-learning-con-tensorflow-ejemplo-de-razas-de-perros-ed218bb4df89	
+ 	    \bibitem{Angelo} https://platzi.com/blog/que-es-y-como-funciona-filtrado-colaborativo/
                  \bibitem{Juan} http://tdan.com/data-warehouse-design-inmon-versus-kimball/20300
-                  \bibitem{Jhordy} https://blog.bi-geek.com/arquitectura-comparativa-inmon-y-kimball/
-                  \bibitem{Jhordy} https://churriwifi.wordpress.com/2010/04/19/15-2-ampliacion-conceptos-del-modelado-dimensional/
-                    \bibitem{Brandon} https://twooctobers.com/blog/8-data-storytelling-concepts-with-examples/
-                   \bibitem{Brandon}https://www.ucasal.edu.ar/htm/ingenieria/cuadernos/archivos/5-p56-rivadera-formateado.pdf
+                  \bibitem{Jhordy} https://programacionpython80889555.wordpress.com/2019/02/19/representacion-grafica-de-datos-en-python-con-matplotlib-grafico-de-barras/
+                  \bibitem{Jhordy} http://www.iac.es/sieinvens/python-course/source/matplotlib.html
+                    \bibitem{Brandon} https://www.iebschool.com/blog/filtrado-colaborativo-sirve-e-commerce/
+                   \bibitem{Brandon} https://noticias.universia.net.mx/ciencia-nn-tt/noticia/2004/11/14/115495/como-funciona-filtro-contenido.html
 
          \end{thebibliography}
 	
