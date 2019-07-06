@@ -336,12 +336,36 @@ El filtrado colaborativo es una gran herramienta para mejorar la visibilidad y l
 
 
 \end{enumerate}
+
 ETL: Este término viene de inglés de las siglas Extract-Transform-Load que significan Extraer, Transformar y Cargar. Se refiere a los datos en una empresa
 \section{Diferencias}
 \begin{itemize}
 \item Según W. H. Inmon (considerado por muchos el padre del Data Warehouse), un Data Warehouse es un conjunto de datos orientados por temas, integrados, variantes en el tiempo y no volátiles, que tienen por objetivo dar soporte a la toma de decisiones.
 \item Según Ralph Kimball (considerado el principal promotor del enfoque dimensional para el diseño de almacenes de datos), un Data Warehouse es una copia de los datos transaccionales específicamente estructurada para la consulta y el análisis.
 \end{itemize}
+
+\section{Ejemplos}
+\begin{itemize}
+\item Consultas de Mejores Libros por Autor 
+
+Este objetivo se hace necesario para poder iniciar una valoracion de los autores.
+
+\begin {center}
+\includegraphics[scale= 0.40]{./Imagenes/mejores_libros_p_autor.png}
+\end {center}
+
+
+\item Consultas de Mejores Libros por Rating 1
+
+Este objetivo se hace necesario para poder iniciar una valoracion de los libros.
+
+\begin {center}
+\includegraphics[scale= 0.50]{./Imagenes/mejores_libros_rating_1.png}
+\end {center}
+
+
+\end{itemize}
+
 
 \section{Conclusion}
 El método Kimball está orientado a la consulta de la información, por lo que su estructura interna está especialmente diseñada para garantizar una explotación de los datos rápida y sencilla, no requiriendo usuarios especializados para ello. Por el contrario, el método Inmon persigue la integración de todos los datos de la compañía, estando orientado hacia el almacenaje de grandes volúmenes de datos, por lo que su estructura interna normalizada se diseña para evitar la redundancia de datos, simplificar las labores de mantenimiento, etc. cuestiones que complican las consultas de la información, requiriendo que los usuarios finales estén mucho más especializados.
