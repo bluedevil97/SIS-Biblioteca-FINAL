@@ -8,4 +8,10 @@ Juan Rodriguez:
 Jhordy Vizcarra:
 
 Angelo Quispe:
+
+https://colab.uniovi.es/alfresco/d/d/workspace/SpacesStore/5d08e449-a03c-462f-9018-2f09bb4bed45/Manual%20colab.pdf?guest=true
+https://www.aprendemachinelearning.com/machine-learning-en-la-nube-google-colaboratory-con-gpu/
+https://medium.com/datos-y-ciencia/construye-tu-primer-clasificador-de-deep-learning-con-tensorflow-ejemplo-de-razas-de-perros-ed218bb4df89
+https://www.iebschool.com/blog/filtrado-colaborativo-sirve-e-commerce/
+https://noticias.universia.net.mx/ciencia-nn-tt/noticia/2004/11/14/115495/como-funciona-filtro-contenido.html
 	
